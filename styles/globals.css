@@ -1,0 +1,55 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wallet-adapter-button {
+}
+
+.wallet-adapter-button-trigger {
+  background-color: #fbae21 !important;
+  color: black !important;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn {
+  background: linear-gradient(270deg, #e86161 0%, #ce8a4c 113.01%);
+  border-radius: 4rem;
+  padding: 1.2rem 4rem;
+  min-width: 20.4rem;
+  width: fit-content;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.wallet-adapter-modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+}
+
+input {
+  border: 1px solid orange;
+  border-radius: 1rem;
+  /* background-color: ; */
+  /* color: white; */
+  text-align: center;
+  width: 50vw;
+}
