@@ -4,10 +4,10 @@ import Link from "next/link";
 import style from "../../styles/header.module.sass";
 import Image from "next/image";
 import { NotifiCard } from "./NotifiCard";
-import { useState } from "react";
+import { FC, useState } from "react";
 import { useNotifiInfo } from "../../hooks/useNotifiInfo";
 
-export default function Header() {
+const Header: FC = () => {
   const wallet = useWallet();
   const [showNotifiCard, setShowNotifiCard] = useState<boolean>(false);
   const { notifiInfo } = useNotifiInfo();
@@ -38,4 +38,5 @@ export default function Header() {
       </div>
     </>
   );
-}
+};
+export default Header;

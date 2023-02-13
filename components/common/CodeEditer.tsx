@@ -1,5 +1,5 @@
 import MonacoEditor from "@monaco-editor/react";
-import { FC, useState } from "react";
+import { FC } from "react";
 
 interface ICodeEditorProps {
   value: string;

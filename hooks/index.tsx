@@ -10,8 +10,6 @@ export const AppContext: FC = ({ children }) => {
   const [loadingData, setLoading] = useState<ILoading>({} as ILoading);
   const [notifiInfo, setNotifiInfo] = useState<INotifiInfo>({} as INotifiInfo);
 
-  useEffect(() => {}, [notifiInfo.broadcastId, notifiInfo]);
-
   useEffect(() => {
     if (notify?.status) {
       setTimeout(() => {

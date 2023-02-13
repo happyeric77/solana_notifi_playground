@@ -1,4 +1,4 @@
-import { FC, useMemo, useState } from "react";
+import { FC, useState } from "react";
 import { SignMessageParams, useNotifiClient } from "@notifi-network/notifi-react-hooks";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { useNotifiInfo } from "../hooks/useNotifiInfo";
@@ -7,6 +7,7 @@ import CodeEditor from "../components/common/CodeEditer";
 import { codeUserData, step1code } from "../utils/constant";
 import style from "../styles/adminAndUser.module.sass";
 
+// WORKAROUND: NOT POSSIBLE GET TYPES FROM NOTIFI SDK
 interface IUserData {
   alerts: {
     id: string | null;

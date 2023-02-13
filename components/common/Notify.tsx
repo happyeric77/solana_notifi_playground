@@ -1,9 +1,9 @@
-import { FunctionComponent } from "react";
-import { Alert, AlertIcon, AlertTitle, AlertDescription, AlertStatus } from "@chakra-ui/react";
+import { FC } from "react";
+import { Alert, AlertIcon, AlertTitle, AlertDescription } from "@chakra-ui/react";
 import style from "../../styles/common.module.sass";
 import { useNotify } from "../../hooks/useNotify";
 
-const Notify: FunctionComponent = () => {
+const Notify: FC = () => {
   const { notify } = useNotify();
   return (
     <>

@@ -4,9 +4,9 @@ import { useNotifiInfo } from "../hooks/useNotifiInfo";
 import { useNotify } from "../hooks/useNotify";
 import { step2code } from "../utils/constant";
 import style from "../styles/adminAndUser.module.sass";
-import { useState } from "react";
+import { FC, useState } from "react";
 
-function Home() {
+const Home: FC = () => {
   const { setNotify } = useNotify();
   const { notifiInfo, setNotifiInfo } = useNotifiInfo();
   const [msgTitle, setMsgTitle] = useState<string>("");
@@ -79,6 +79,6 @@ function Home() {
       </div>
     </>
   );
-}
+};
 
 export default Home;

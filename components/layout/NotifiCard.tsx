@@ -7,14 +7,14 @@ import {
 import "@notifi-network/notifi-react-card/dist/index.css";
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
 import style from "../../styles/notifiCard.module.sass";
-import React from "react";
+import { FC } from "react";
 
 interface INotifiCardProps {
   appAddress: string;
   cardId: string;
 }
 
-export const NotifiCard: React.FC<INotifiCardProps> = ({ appAddress, cardId }) => {
+export const NotifiCard: FC<INotifiCardProps> = ({ appAddress, cardId }) => {
   const { connection } = useConnection();
   const { wallet, sendTransaction, signMessage } = useWallet();
   const adapter = wallet?.adapter;

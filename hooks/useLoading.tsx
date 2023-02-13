@@ -1,4 +1,3 @@
-import { AlertStatus } from "@chakra-ui/react";
 import { createContext, Dispatch, SetStateAction, useContext } from "react";
 type ILoadingContext = {
   setLoading: Dispatch<SetStateAction<ILoading>>;
