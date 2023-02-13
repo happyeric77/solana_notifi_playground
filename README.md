@@ -27,16 +27,16 @@ User case #1 example code in USER config is to create a notifi card as below.
 
 After inputing the valid **dappAddress** & **cardId**, the subscribed user data will be shown in the card dropdown dialog. Remember to login with Solana wallet before doing so.
 
-> Note: When inputing the **dappAddress** & **cardId** into place holder, the corresponding place is example code changes simutanously.
+> Note: When inputing the **dappAddress** & **cardId** into place holder, the corresponding places in example code changes simutanously.
 
 ![](https://i.imgur.com/V16P9K8.png)
 
-User case #2 example code is to demonstrating the capibility to create more cusomized behaviors integrated with user info. In this case, example code can create 3 extra user features **Login**, **FetchData**, and **LOGOUT**
+User case #2 example code is to demonstrate the capibility to create more custom behaviors integrated with user info. In this case, example code generates 3 extra user features **Login**, **FetchData**, and **LOGOUT**
 ![](https://i.imgur.com/Zp4ZnIL.png)
 
 ## 3. [Playground "ADMIN"](https://solana-notifi-playground.vercel.app/) page
 
-Admin case #1 example code is to allow admin to create broadcast to subscribed users.
+Admin case #1 example code is to allow admin to broadcast message to subscribed users.
 
-> Note: When inputing the **SID** & **SID secret** & **Broadcast ID** & **msg title** & **msg description** into place holder, the corresponding place is example code changes simutanously.
+> Note: When inputing the **SID** & **SID secret** & **Broadcast ID** & **msg title** & **msg description** into place holder, the corresponding place in example code changes simutanously.
 > ![](https://i.imgur.com/qi2T6OM.png)
