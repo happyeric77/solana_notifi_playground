@@ -9,7 +9,7 @@ This playground makes use of the following three key SDKs' example code. You wil
 - [@notifi-network/notifi-react-hook](https://www.npmjs.com/package/@notifi-network/notifi-react-hooks)
 
 > **[TRY IT OUT](https://solana-notifi-playground.vercel.app/user)**
-> Playground Source code: [Githug repo](git@github.com:happyeric77/solana_notifi_playground.git)
+> Playground Source code: [Github repo](git@github.com:happyeric77/solana_notifi_playground.git)
 
 # How to use
 
